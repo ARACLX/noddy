@@ -1,0 +1,12 @@
+{
+	"$schema": "https://raw.githubusercontent.com/SchemaStore/schemastore/master/src/schemas/json/renovate.json",
+	"extends": ["config:base"],
+	"assignAutomerge": true,
+	"automerge": true,
+	"packageRules": [
+		{
+			"depTypeList": ["devDependencies"],
+			"automerge": true
+		}
+	]
+}
